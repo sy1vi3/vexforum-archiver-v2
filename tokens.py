@@ -7,10 +7,10 @@ import os
 import datetime
 import constants
 
-db_user = os.environ['VF_DB_USER']
-db_password = os.environ['VF_DB_PASS']
-db_host = os.environ['VF_DB_HOST']
-db_port = os.environ['VF_DB_PORT']
+db_user = os.environ['DB_USER']
+db_password = os.environ['DB_PASS']
+db_host = os.environ['DB_HOST']
+db_port = os.environ['DB_PORT']
 vf_pass = os.environ['VF_PASS']
 vf_user = os.environ['VF_USER']
 bot_token = os.environ['VF_BOT_TOKEN']
